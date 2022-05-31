@@ -1,0 +1,25 @@
+.bord {
+    margin: 3%;
+    position: relative;
+}
+.bc {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.titre {
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 150px;
+}
+.titre h3{
+    position: relative;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+    left: 70px;
+    bottom: 40px
+}

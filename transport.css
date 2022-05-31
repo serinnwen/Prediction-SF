@@ -1,0 +1,173 @@
+html{
+    background-color: #1a1818;
+}
+h3 {
+color:#f19925;
+}
+.bord {
+    margin: 3%;
+    margin-right: 250px;
+    position: relative;
+}
+body{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Montserrat",sans-serif;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.bc {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.titre {
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 150px;
+}
+.titre h3{
+    position: relative;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+    left: 70px;
+    bottom: 40px
+}
+
+.banniere2{
+    position: relative;
+    height: 475px;
+    margin-left: 172px;
+    margin-top: 15px;
+}
+.banniere2 h2{
+    position: relative;
+    margin-top: 35px;
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+}
+.banniere2::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    border: 5px solid orange;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+.banniere2::after {
+    content: "";
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+}
+.banniere2 h2::after {
+    content: "";
+    position: absolute;
+    top: 255px;
+    left: 345px;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+}
+.banniere2 h2::before {
+    content: "";
+    position: absolute;
+    top: 63px;
+    left: 194px;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.side-bar{
+    position: fixed;
+    margin-left: 1550px;
+    margin-top: 180px;
+
+
+}
+.side-bar-element{
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+    -moz-transition: all 0.6s ease; /* Firefox */
+    -ms-transition: all 0.6s ease; /* IE 9 */
+    -o-transition: all 0.6s ease; /* Opera */
+    transition: all 0.6s ease;
+}
+.side-bar-element:hover{
+    color: white;
+    text-decoration: none;
+}
+.hr{
+    transform: rotate(90deg);
+    position: fixed;
+    left: 750px;
+    width: 1500px;
+}
+#parag{
+    margin-left: 70px;
+}
+#parag2{
+    margin-left: 70px;
+    margin-left: 150px;
+}
+p{
+    font-size: 20px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+    background: #0c0c0c;
+}
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 31px none #ffffff;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #a3a3a3;
+}
+::-webkit-scrollbar-track {
+    background: #0c0c0c;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #0c0c0c;
+}
+::-webkit-scrollbar-track:active {
+    background: #0c0c0c;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+.exemple {
+text-align: center;
+margin:auto;
+display:flex;
+}
